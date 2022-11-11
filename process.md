@@ -31,8 +31,29 @@
     - console.log(key.object_name)
     - const {ObjectId}=useParams()
     - const --varibale_name-- = Functions declared in functions
+
 ## Child Router
 - <Route path="" element={<component_name />}>
     <Route path=":---Component Data_id---" element={<component_name/>}/>
     !---/component/sun-component_data---!
     </Route>
+
+- 2 Tree nested route
+
+## Api
+
+- Store Locator
+    - Store Name
+    - Lan
+    - Lat
+    - Contact Number
+
+- Products
+    - Product Image
+    - Product Name
+    - Product price
+    - Product Discription
+    - Status (Available - Green, Out of stock - Red)
+    
+
+
