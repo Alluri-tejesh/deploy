@@ -1,3 +1,6 @@
+!------------ Dead Line for Deploy : 11 Novemember ------------!
+
+
 ## Install the react-router-dom
 - npm install react-router-dom26
     -Create the Index.js is entry point.
@@ -32,6 +35,19 @@
     - const {ObjectId}=useParams()
     - const --varibale_name-- = Functions declared in functions
 
+## useNavigate()
+    - Navigate to the exact page
+    - navigate() - isn function to send the component link
+    - To pass the values to the 
+            - navigate("/{component_link}",{sate:{variable_name : useRef()-value.current.value}}) 
+
+## useRef()
+    - To pass the form Elements
+
+## useLocation()
+    - Used to retrive the data
+    - 
+
 ## Child Router
 - <Route path="" element={<component_name />}>
     <Route path=":---Component Data_id---" element={<component_name/>}/>
@@ -55,5 +71,14 @@
     - Product Discription
     - Status (Available - Green, Out of stock - Red)
     
+## Get the form Request data 
+    - Add component in the App.js
+    - UseNavigate Hook to render the sucess request 202
+    - ref={name} to collect the data
 
+## condition
+    - {variable && (
+
+            Get the result
+        )}
 
