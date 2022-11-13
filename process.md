@@ -92,4 +92,4 @@
 
 ## Text sliding for the component
  - (https://www.geeksforgeeks.org/how-to-create-sliding-text-reveal-animation-using-html-css/)
- - Groww Example (https://codepen.io/Syff/pen/LddraO)
+ - Groww Example (https://codepen.io/   Syff/pen/LddraO)
