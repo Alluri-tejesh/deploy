@@ -1,10 +1,10 @@
-!------------ Dead Line for Deploy : 21 Novemember 2022 ------------!
+!------------ Dead Line for Deploy : 11 Novemember ------------!
 
 
 ## Install the react-router-dom
-- npm install react-router-dom@6
-    - Create the Index.js is entry point.
-    - Add in index.js [import {BrowserRouter} from "react-router-dom]
+- npm install react-router-dom26
+    -Create the Index.js is entry point.
+    - Add in index.jx[import {BrowserRouter} from "react-router-dom]
     - Add <BrowserRouter> <App /> </BrowserRouter>
 ## Route
 - App.js
@@ -46,7 +46,7 @@
 
 ## useLocation()
     - Used to retrive the data
-    - 
+
 
 ## Child Router
 - <Route path="" element={<component_name />}>
@@ -70,6 +70,14 @@
     - Product price
     - Product Discription
     - Status (Available - Green, Out of stock - Red)
+
+- Buy/Sell
+    
+    - Product Image
+    - Product Name
+    - Product Price
+    - Product Price
+
     
 ## Get the form Request data 
     - Add component in the App.js
@@ -84,12 +92,6 @@
 
 
 
-## Deploy
--  Install gh-pages - [npm install gh-pages]
-- "deploy": "./node_modules/gh-pages/bin/gh-pages-clean.js && gh-pages -d build". add it in scripts [Package.json]
--  "homepage": "http://thevra.in" 
+## Node js 
+  
 
-
-## Text sliding for the component
- - (https://www.geeksforgeeks.org/how-to-create-sliding-text-reveal-animation-using-html-css/)
- - Groww Example (https://codepen.io/   Syff/pen/LddraO)
